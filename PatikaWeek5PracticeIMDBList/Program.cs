@@ -20,7 +20,7 @@ while (true) // loop that will take data until the user finishes
 
     if (basarili && imdbRate >= 0 && imdbRate <= 10) // Checking the data whether it is double and between 4 and 9
     {
-        Movie movie = new Movie(imdbRate, movieName);
+        Movie movie = new Movie(imdbRate, movieName); // Creating an instance of Movie object with parameters
         movieList.Add(movie); // Adding movie object to the list 
 
     }
